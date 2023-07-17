@@ -600,24 +600,32 @@ video {
   top: 46%;
 }
 
+.top-\[60\%\] {
+  top: 60%;
+}
+
 .top-\[75\%\] {
   top: 75%;
 }
 
-.top-2 {
-  top: 0.5rem;
+.top-\[50\%\] {
+  top: 50%;
 }
 
-.top-5 {
-  top: 1.25rem;
+.top-\[30\%\] {
+  top: 30%;
+}
+
+.top-\[25\%\] {
+  top: 25%;
 }
 
 .top-\[20\%\] {
   top: 20%;
 }
 
-.top-\[60\%\] {
-  top: 60%;
+.top-\[58\%\] {
+  top: 58%;
 }
 
 .col-span-2 {
@@ -628,8 +636,9 @@ video {
   grid-row: span 2 / span 2;
 }
 
-.row-span-1 {
-  grid-row: span 1 / span 1;
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .mx-5 {
@@ -647,17 +656,20 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
 .mb-16 {
   margin-bottom: 4rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .mt-24 {
@@ -666,14 +678,6 @@ video {
 
 .mt-32 {
   margin-top: 8rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
 }
 
 .flex {
@@ -716,10 +720,6 @@ video {
   height: 20%;
 }
 
-.h-32 {
-  height: 8rem;
-}
-
 .w-24 {
   width: 6rem;
 }
@@ -744,8 +744,8 @@ video {
   width: 100%;
 }
 
-.w-32 {
-  width: 8rem;
+.w-2\/5 {
+  width: 40%;
 }
 
 .grid-cols-4 {
