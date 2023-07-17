@@ -592,12 +592,16 @@ video {
   right: 0px;
 }
 
+.top-\[25\%\] {
+  top: 25%;
+}
+
 .top-\[33\%\] {
   top: 33%;
 }
 
-.top-\[46\%\] {
-  top: 46%;
+.top-\[58\%\] {
+  top: 58%;
 }
 
 .top-\[60\%\] {
@@ -608,24 +612,64 @@ video {
   top: 75%;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
 .top-\[50\%\] {
   top: 50%;
 }
 
-.top-\[30\%\] {
-  top: 30%;
+.top-\[45\%\] {
+  top: 45%;
 }
 
-.top-\[25\%\] {
-  top: 25%;
+.top-\[48\%\] {
+  top: 48%;
 }
 
-.top-\[20\%\] {
-  top: 20%;
+.top-\[46\%\] {
+  top: 46%;
 }
 
-.top-\[58\%\] {
-  top: 58%;
+.top-\[40\%\] {
+  top: 40%;
+}
+
+.top-\[39\%\] {
+  top: 39%;
+}
+
+.top-\[44\%\] {
+  top: 44%;
+}
+
+.top-\[49\%\] {
+  top: 49%;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.-bottom-1 {
+  bottom: -0.25rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.bottom-\[10\%\] {
+  bottom: 10%;
+}
+
+.bottom-\[20\%\] {
+  bottom: 20%;
+}
+
+.left-20 {
+  left: 5rem;
 }
 
 .col-span-2 {
@@ -720,6 +764,14 @@ video {
   height: 20%;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -744,8 +796,8 @@ video {
   width: 100%;
 }
 
-.w-2\/5 {
-  width: 40%;
+.w-5\/6 {
+  width: 83.333333%;
 }
 
 .grid-cols-4 {
@@ -862,6 +914,11 @@ video {
 .bg-yellow-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .p-2 {
